@@ -580,6 +580,8 @@ typedef NS_ENUM(NSInteger, CRBoxTextChangeType) {
 //        _textView.backgroundColor = [UIColor clearColor];
 //        _textView.textColor = [UIColor clearColor];
         _textView.delegate = self;
+        _textView.autocorrectionType = UITextAutocorrectionTypeNo;
+        _textView.autocapitalizationType = UITextAutocapitalizationTypeNone;
         [_textView addTarget:self action:@selector(textDidChange:) forControlEvents:UIControlEventEditingChanged];
     }
     return _textView;

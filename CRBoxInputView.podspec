@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CRBoxInputView'
-  s.version          = '1.2.1'
+  s.version          = '1.2.2'
   s.summary          = 'You can use this widget for verify code, password input or phone number input.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: You can use this widget for verify code, password input or phone number in
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'BearRan' => '648070256@qq.com' }
-  s.source           = { :git => 'https://github.com/CRAnimation/CRBoxInputView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lays90/CRBoxInputView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
